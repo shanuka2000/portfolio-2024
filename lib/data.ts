@@ -31,7 +31,7 @@ export const projectData = [
   {
     title: "CryptoFutureVision",
     description:
-      "A real-time web-based application for predicting Bitcoin (BTC) price using historical price data and twitter data collected over a seven-day period. This application offers the ability to view BTC price prediction for the next minute based on machine learning algorithms and past price trends.",
+      "This web app predicts BTC prices using historical data and Twitter trends from a week, offering minute-by-minute forecasts via machine learning and past trends.",
     tags: ["Python", "Flask", "React", "Javascript"],
     imageUrl: corpcommentImg,
   },
@@ -45,15 +45,8 @@ export const projectData = [
   {
     title: "Heal Port",
     description:
-      "A mobile application that utilizes both symptoms input and X-ray images to predict the likelihood of pneumonia in patients. This user friendly and efficient app assists in early diagnosis and supports healthcare professionals in making informed design decisions.",
-    tags: [
-      "React Native",
-      "Node js",
-      "Express js",
-      "Python",
-      "Flask",
-      "MongoDB",
-    ],
+      "This mobile app uses symptoms and X-ray images to predict pneumonia, aiding in early diagnosis and supporting healthcare decisions.",
+    tags: ["React Native", "Node js", "Python", "Flask", "MongoDB"],
     imageUrl: corpcommentImg,
   },
 ] as const;
