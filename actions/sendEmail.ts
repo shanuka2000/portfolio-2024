@@ -17,6 +17,7 @@ export const sendEmail = async (formData: FormData) => {
   if (!validateString(message, 5000)) {
     return { error: "Invalid message" };
   }
+  let data;
 
   try {
     await resend.emails.send({
@@ -32,4 +33,8 @@ export const sendEmail = async (formData: FormData) => {
   } catch (error: unknown) {
     return { error: getErrorMessage(error) };
   }
+
+  return {
+    data,
+  };
 };
